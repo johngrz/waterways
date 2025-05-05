@@ -1,0 +1,48 @@
+  body {
+    background-color: #000000;
+  }
+
+  .centered_container {
+    height: 95vH;
+    text-align: center;
+  }
+
+  .audio_group {
+    display: inline-block;
+    font-size: 3vmax;
+    color: white;
+    text-align: center;
+    /* margin-top: 15%; */
+  }
+
+  .names {
+    margin: 2%;
+  }
+
+  .centered_container #trigger {
+    filter: invert(1);
+    cursor: pointer;
+
+  }
+
+  .audio_group audio {
+    display: none;
+  }
+
+
+  footer {
+    position: absolute;
+    top: 96vH;
+  }
+
+  footer .attribution {
+    float: right;
+
+  }
+
+  footer a {
+    font-size: 0.75em;
+    color: #999;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
